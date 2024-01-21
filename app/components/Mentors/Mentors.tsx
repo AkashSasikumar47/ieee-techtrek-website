@@ -9,9 +9,9 @@ const Mentors = () => {
                 {/* Title */}
                 <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
                     <h2 className="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">
-                        Our leadership
+                        Meet Our Expert Mentors
                     </h2>
-                    <p className="mt-1 text-gray-600 dark:text-gray-400">Creative people</p>
+                    <p className="mt-1 text-gray-600 dark:text-gray-400">Guiding Your TechTrek Journey with Excellence</p>
                 </div>
                 {/* End Title */}
                 {/* Grid */}
@@ -26,14 +26,13 @@ const Mentors = () => {
                             />
                             <div className="grow">
                                 <h3 className="font-medium text-gray-800 dark:text-gray-200">
-                                    Tom Lowry
+                                    Akash Sasikumar
                                 </h3>
-                                <p className="text-xs uppercase text-gray-500">UI/UX Designer</p>
+                                <p className="text-xs uppercase text-gray-500">Head, Web & App Development Domain</p>
                             </div>
                         </div>
                         <p className="mt-3 text-gray-500">
-                            I am an ambitious workaholic, but apart from that, pretty simple
-                            person.
+                            I'm excited to be your mentor for web and app development. Let's delve into the world of coding, where innovation and creativity collide. Together, we'll build something extraordinary.
                         </p>
                         {/* Social Brands */}
                         <div className="mt-3 space-x-1">
@@ -95,16 +94,15 @@ const Mentors = () => {
                             />
                             <div className="grow">
                                 <h3 className="font-medium text-gray-800 dark:text-gray-200">
-                                    Louise Donadieu
+                                    Sampurna Sahoo
                                 </h3>
                                 <p className="text-xs uppercase text-gray-500">
-                                    Support Consultant
+                                    Secretary, IEEE SRM
                                 </p>
                             </div>
                         </div>
                         <p className="mt-3 text-gray-500">
-                            I am an ambitious workaholic, but apart from that, pretty simple
-                            person.
+                            As your guide through TechTrek, I'm here to ensure your journey is seamless. From project intricacies to unlocking your potential, I'm committed to supporting you every step of the way.
                         </p>
                         {/* Social Brands */}
                         <div className="mt-3 space-x-1">
@@ -166,14 +164,13 @@ const Mentors = () => {
                             />
                             <div className="grow">
                                 <h3 className="font-medium text-gray-800 dark:text-gray-200">
-                                    Jeff Fisher
+                                    Dipanwitha Saha
                                 </h3>
-                                <p className="text-xs uppercase text-gray-500">Project Manager</p>
+                                <p className="text-xs uppercase text-gray-500">Joint-Secretary, IEEE SRM</p>
                             </div>
                         </div>
                         <p className="mt-3 text-gray-500">
-                            I am an ambitious workaholic, but apart from that, pretty simple
-                            person.
+                            Embark on the hackathon adventure with me as your mentor. I'm here to assist, encourage, and empower you to conquer challenges and turn your ideas into impactful solutions.
                         </p>
                         {/* Social Brands */}
                         <div className="mt-3 space-x-1">

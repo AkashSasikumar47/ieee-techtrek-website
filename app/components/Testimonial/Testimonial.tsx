@@ -12,12 +12,8 @@ const Testimonial = () => {
                         {/* Title */}
                         <div className="mb-8">
                             <h2 className="mb-2 text-3xl text-gray-800 font-bold lg:text-4xl dark:text-gray-200">
-                                It's all about speed
+                                Voices from Our Participants
                             </h2>
-                            <p className="text-gray-600 dark:text-gray-400">
-                                We provide you with a test account that can be set up in seconds.
-                                Our main focus is getting responses to you as soon as we can.
-                            </p>
                         </div>
                         {/* End Title */}
                         {/* Blockquote */}
@@ -38,7 +34,7 @@ const Testimonial = () => {
                             </svg>
                             <div className="relative z-10">
                                 <p className="text-xl italic text-gray-800 dark:text-white">
-                                    Amazing people to work with. Very fast and professional partner.
+                                    As we gear up for the inaugural TechTrek, the excitement is palpable! The prospect of diving into web development, collaborating with like-minded enthusiasts, and unleashing our coding creativity is something we eagerly look forward to. The journey of innovation is about to begin, and we can't wait to see the groundbreaking projects that will emerge!
                                 </p>
                             </div>
                             <footer className="mt-6">
@@ -52,10 +48,10 @@ const Testimonial = () => {
                                     </div>
                                     <div className="grow ms-4">
                                         <div className="font-semibold text-gray-800 dark:text-gray-200">
-                                            Josh Grazioso
+                                            Kristen Talukdar
                                         </div>
                                         <div className="text-xs text-gray-500">
-                                            Director Payments &amp; Risk | Airbnb
+                                            Pythonic Maestro, WAD | IEEE SRM
                                         </div>
                                     </div>
                                 </div>
@@ -70,10 +66,10 @@ const Testimonial = () => {
                             <ul className="grid grid-cols-2 divide-y divide-y-2 divide-x divide-x-2 divide-gray-200 overflow-hidden dark:divide-gray-700">
                                 <li className="flex flex-col -m-0.5 p-4 sm:p-8">
                                     <div className="flex items-end gap-x-2 text-3xl sm:text-5xl font-bold text-gray-800 mb-2 dark:text-gray-200">
-                                        45k+
+                                        51+
                                     </div>
                                     <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400">
-                                        users - from new startups to public companies
+                                        Anticipated enthusiastic participants.
                                     </p>
                                 </li>
                                 <li className="flex flex-col -m-0.5 p-4 sm:p-8">
@@ -93,10 +89,10 @@ const Testimonial = () => {
                                             <path d="m5 12 7-7 7 7" />
                                             <path d="M12 19V5" />
                                         </svg>
-                                        23%
+                                        17+
                                     </div>
                                     <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400">
-                                        increase in traffic on webpages with Looms
+                                        Envisioning a wave of creative projects.
                                     </p>
                                 </li>
                                 <li className="flex flex-col -m-0.5 p-4 sm:p-8">
@@ -116,10 +112,10 @@ const Testimonial = () => {
                                             <path d="m5 12 7-7 7 7" />
                                             <path d="M12 19V5" />
                                         </svg>
-                                        9.3%
+                                        48
                                     </div>
                                     <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400">
-                                        boost in reply rates across sales outreach
+                                        Hours of Coding
                                     </p>
                                 </li>
                                 <li className="flex flex-col -m-0.5 p-4 sm:p-8">
@@ -127,7 +123,7 @@ const Testimonial = () => {
                                         2x
                                     </div>
                                     <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400">
-                                        faster than previous Preline versions
+                                        Innovative Spirit
                                     </p>
                                 </li>
                             </ul>

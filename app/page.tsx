@@ -18,7 +18,7 @@ import '../app/globals.css';
 
 const HomePage: React.FC = () => {
   return (
-    <div>
+    <div className='dark bg-black'>
 
       <Navbar />
 

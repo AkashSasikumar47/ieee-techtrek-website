@@ -6,6 +6,11 @@ const Workflow = () => {
 
             {/* Icon Blocks */}
             <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+                <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
+                    <h2 className="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">
+                        Key Highlights of the Event Workflow
+                    </h2>
+                </div>
                 <div className="grid sm:grid-cols-2 lg:grid-cols-4 items-center gap-12">
                     {/* Icon Block */}
                     <div className="text-center">
@@ -29,10 +34,10 @@ const Workflow = () => {
                         </div>
                         <div className="mt-3">
                             <h3 className="text-lg font-semibold text-gray-800 dark:text-white">
-                                Responsive
+                                Learn From Experts
                             </h3>
                             <p className="mt-1 text-gray-600 dark:text-gray-400">
-                                Responsive, and mobile-first project on the web
+                                Gain insights and knowledge from industry experts during the Introduction & Speaker Session.
                             </p>
                         </div>
                     </div>
@@ -60,10 +65,10 @@ const Workflow = () => {
                         </div>
                         <div className="mt-3">
                             <h3 className="text-lg font-semibold text-gray-800 dark:text-white">
-                                Customizable
+                                Code Your Commerce Canvas
                             </h3>
                             <p className="mt-1 text-gray-600 dark:text-gray-400">
-                                Components are easily customized and extendable
+                                Dive into a 2-day hackathon, crafting a fully functional E-commerce website.
                             </p>
                         </div>
                     </div>
@@ -89,10 +94,10 @@ const Workflow = () => {
                         </div>
                         <div className="mt-3">
                             <h3 className="text-lg font-semibold text-gray-800 dark:text-white">
-                                Documentation
+                                Showcase Your Project
                             </h3>
                             <p className="mt-1 text-gray-600 dark:text-gray-400">
-                                Every component and plugin is well documented
+                                Present your project during the Project Showcase, demonstrating your creativity and skills.
                             </p>
                         </div>
                     </div>
@@ -118,10 +123,10 @@ const Workflow = () => {
                         </div>
                         <div className="mt-3">
                             <h3 className="text-lg font-semibold text-gray-800 dark:text-white">
-                                24/7 Support
+                                Celebrate Innovation
                             </h3>
                             <p className="mt-1 text-gray-600 dark:text-gray-400">
-                                Contact us 24 hours a day, 7 days a week
+                                Join the celebration as we recognize outstanding projects, award prizes, and celebrate innovation.
                             </p>
                         </div>
                     </div>
@@ -132,6 +137,11 @@ const Workflow = () => {
 
             {/* Icon Blocks */}
             <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+                <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
+                    <h2 className="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">
+                        Event Workflow in Action
+                    </h2>
+                </div>
                 <div className="max-w-4xl mx-auto">
                     {/* Grid */}
                     <div className="grid md:grid-cols-2 gap-6 lg:gap-12">
@@ -158,11 +168,10 @@ const Workflow = () => {
                                 </svg>
                                 <div className="ms-5 sm:ms-8">
                                     <h3 className="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
-                                        Creative minds
+                                        Introduction & Speaker Session
                                     </h3>
                                     <p className="mt-1 text-gray-600 dark:text-gray-400">
-                                        We choose our teams carefully. Our people are the secret to
-                                        great work.
+                                        Engage with industry experts, learning about the latest trends in web development and E-commerce.
                                     </p>
                                 </div>
                             </div>
@@ -188,11 +197,10 @@ const Workflow = () => {
                                 </svg>
                                 <div className="ms-5 sm:ms-8">
                                     <h3 className="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
-                                        Effortless updates
+                                        Hackathon Kickoff
                                     </h3>
                                     <p className="mt-1 text-gray-600 dark:text-gray-400">
-                                        Benefit from automatic updates to all boards any time you need
-                                        to make a change to your website.
+                                        Receive the challenge, form teams, and start coding your E-commerce website.
                                     </p>
                                 </div>
                             </div>
@@ -215,11 +223,10 @@ const Workflow = () => {
                                 </svg>
                                 <div className="ms-5 sm:ms-8">
                                     <h3 className="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
-                                        Strong empathy
+                                        Mentorship and Collaboration
                                     </h3>
                                     <p className="mt-1 text-gray-600 dark:text-gray-400">
-                                        We've user tested our own process by shipping over 1k products
-                                        for clients.
+                                        Seek guidance from mentors, collaborate with teammates, and overcome coding challenges.
                                     </p>
                                 </div>
                             </div>
@@ -250,10 +257,10 @@ const Workflow = () => {
                                 </svg>
                                 <div className="ms-5 sm:ms-8">
                                     <h3 className="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
-                                        Conquer the best
+                                        Project Showcase Preparation
                                     </h3>
                                     <p className="mt-1 text-gray-600 dark:text-gray-400">
-                                        We stay lean and help your product do one thing well.
+                                        Prepare a captivating presentation to showcase your E-commerce website during the Project Showcase.
                                     </p>
                                 </div>
                             </div>
@@ -279,11 +286,10 @@ const Workflow = () => {
                                 </svg>
                                 <div className="ms-5 sm:ms-8">
                                     <h3 className="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
-                                        Designing for people
+                                        Project Showcase
                                     </h3>
                                     <p className="mt-1 text-gray-600 dark:text-gray-400">
-                                        We actively pursue the right balance between functionality and
-                                        aesthetics, creating delightful experiences.
+                                        Present your project to judges, attendees, and fellow participants in a 10-minute showcase.
                                     </p>
                                 </div>
                             </div>
@@ -307,11 +313,10 @@ const Workflow = () => {
                                 </svg>
                                 <div className="ms-5 sm:ms-8">
                                     <h3 className="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
-                                        Simple and affordable
+                                        Prize Distribution and Closing
                                     </h3>
                                     <p className="mt-1 text-gray-600 dark:text-gray-400">
-                                        From boarding passes to movie tickets, there's pretty much
-                                        nothing you can't store with Preline.
+                                        Celebrate the successful completion of TechTrek, with prizes awarded to outstanding projects and closing remarks.
                                     </p>
                                 </div>
                             </div>

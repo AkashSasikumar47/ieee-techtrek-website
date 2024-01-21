@@ -14,88 +14,13 @@ const AboutHactrix = () => {
                             {/* Title */}
                             <div className="space-y-2 md:space-y-4">
                                 <h2 className="font-bold text-3xl lg:text-4xl text-gray-800 dark:text-gray-200">
-                                    Collaborative tools to design user experience
+                                    TechTrek: Code Your Commerce Canvas
                                 </h2>
                                 <p className="text-gray-500">
-                                    Use our tools to explore your ideas and make your vision come
-                                    true. Then share your work easily.
+                                    TechTrek is not just a hackathon; it's an innovation journey that invites you to explore the exciting landscape of web development. Created by IEEE SRM Student Branch, TechTrek is a 2-day coding extravaganza where participants embark on the challenge to 'Code Your Commerce Canvas.' Whether you're a coding enthusiast, a beginner looking to learn, or an experienced developer seeking a creative challenge, TechTrek provides the platform to unleash your coding prowess. Join us to collaborate, innovate, and elevate your skills in an immersive environment. Let's code the future together!
                                 </p>
                             </div>
                             {/* End Title */}
-                            {/* List */}
-                            <ul role="list" className="space-y-2 sm:space-y-4">
-                                <li className="flex space-x-3">
-                                    {/* Solid Check */}
-                                    <span className="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-                                        <svg
-                                            className="flex-shrink-0 h-3.5 w-3.5"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width={24}
-                                            height={24}
-                                            viewBox="0 0 24 24"
-                                            fill="none"
-                                            stroke="currentColor"
-                                            strokeWidth={2}
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                        >
-                                            <polyline points="20 6 9 17 4 12" />
-                                        </svg>
-                                    </span>
-                                    {/* End Solid Check */}
-                                    <span className="text-sm sm:text-base text-gray-500">
-                                        <span className="font-bold">Less routine</span> – more
-                                        creativity
-                                    </span>
-                                </li>
-                                <li className="flex space-x-3">
-                                    {/* Solid Check */}
-                                    <span className="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-                                        <svg
-                                            className="flex-shrink-0 h-3.5 w-3.5"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width={24}
-                                            height={24}
-                                            viewBox="0 0 24 24"
-                                            fill="none"
-                                            stroke="currentColor"
-                                            strokeWidth={2}
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                        >
-                                            <polyline points="20 6 9 17 4 12" />
-                                        </svg>
-                                    </span>
-                                    {/* End Solid Check */}
-                                    <span className="text-sm sm:text-base text-gray-500">
-                                        Hundreds of thousands saved
-                                    </span>
-                                </li>
-                                <li className="flex space-x-3">
-                                    {/* Solid Check */}
-                                    <span className="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
-                                        <svg
-                                            className="flex-shrink-0 h-3.5 w-3.5"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width={24}
-                                            height={24}
-                                            viewBox="0 0 24 24"
-                                            fill="none"
-                                            stroke="currentColor"
-                                            strokeWidth={2}
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                        >
-                                            <polyline points="20 6 9 17 4 12" />
-                                        </svg>
-                                    </span>
-                                    {/* End Solid Check */}
-                                    <span className="text-sm sm:text-base text-gray-500">
-                                        Scale budgets <span className="font-bold">efficiently</span>
-                                    </span>
-                                </li>
-                            </ul>
-                            {/* End List */}
                         </div>
                     </div>
                     {/* End Col */}

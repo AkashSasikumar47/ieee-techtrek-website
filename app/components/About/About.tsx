@@ -9,7 +9,7 @@ const About = () => {
                 <div className="aspect-w-16 aspect-h-7">
                     <img
                         className="w-full object-cover rounded-xl"
-                        src="https://images.unsplash.com/photo-1624571409412-1f253e1ecc89?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
+                        src="/img/IMG_0620.jpeg"
                         alt="Image Description"
                     />
                 </div>
@@ -17,13 +17,10 @@ const About = () => {
                 <div className="mt-5 lg:mt-16 grid lg:grid-cols-3 gap-8 lg:gap-12">
                     <div className="lg:col-span-1">
                         <h2 className="font-bold text-2xl md:text-3xl text-gray-800 dark:text-gray-200">
-                            We tackle the challenges start-ups face
+                            Discover IEEE SRMIST Student Branch
                         </h2>
                         <p className="mt-2 md:mt-4 text-gray-500">
-                            Besides working with start-up enterprises as a partner for
-                            digitalization, we have built enterprise products for common pain
-                            points that we have encountered in various products and projects.
-                        </p>
+                            IEEE SRM Student Branch is a dynamic community dedicated to fostering technological innovation and excellence. As a proud chapter of the world's largest professional organization, IEEE, we strive to inspire, educate, and empower our members.                         </p>
                     </div>
                     {/* End Col */}
                     <div className="lg:col-span-2">
@@ -50,11 +47,10 @@ const About = () => {
                                 </svg>
                                 <div className="grow">
                                     <h3 className="text-lg font-semibold text-gray-800 dark:text-white">
-                                        Creative minds
+                                        Our Founding
                                     </h3>
                                     <p className="mt-1 text-gray-600 dark:text-gray-400">
-                                        We choose our teams carefully. Our people are the secret to
-                                        great work.
+                                        IEEE SRMIST SB was established in 2015 with a vision to inspire, educate, and empower the next generation of engineers and innovators.
                                     </p>
                                 </div>
                             </div>
@@ -78,11 +74,10 @@ const About = () => {
                                 </svg>
                                 <div className="grow">
                                     <h3 className="text-lg font-semibold text-gray-800 dark:text-white">
-                                        Simple and affordable
+                                        Our Values
                                     </h3>
                                     <p className="mt-1 text-gray-600 dark:text-gray-400">
-                                        From boarding passes to movie tickets, there's pretty much
-                                        nothing you can't store with Preline.
+                                        We are driven by innovation, education, community, and excellence. These values guide our actions and initiatives.
                                     </p>
                                 </div>
                             </div>
@@ -106,11 +101,10 @@ const About = () => {
                                 </svg>
                                 <div className="grow">
                                     <h3 className="text-lg font-semibold text-gray-800 dark:text-white">
-                                        Industry-leading documentation
+                                        Our Journey
                                     </h3>
                                     <p className="mt-1 text-gray-600 dark:text-gray-400">
-                                        Our documentation and extensive Client libraries contain
-                                        everything a business needs to build a custom integration.
+                                        Over the years, we've organized impactful events, workshops, and initiatives, fostering talent and technological advancement.
                                     </p>
                                 </div>
                             </div>
@@ -136,11 +130,10 @@ const About = () => {
                                 </svg>
                                 <div className="grow">
                                     <h3 className="text-lg font-semibold text-gray-800 dark:text-white">
-                                        Designing for people
+                                        Membership Benefits
                                     </h3>
                                     <p className="mt-1 text-gray-600 dark:text-gray-400">
-                                        We actively pursue the right balance between functionality and
-                                        aesthetics, creating delightful experiences.
+                                        Joining IEEE opens doors to a world of resources, networking, and professional development opportunities.
                                     </p>
                                 </div>
                             </div>

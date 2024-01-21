@@ -1,5 +1,5 @@
 {
-  "name": "ieee-hactrix24-website",
+  "name": "ieee-techtrek-website",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "14.0.4",
+    "next": "^14.1.1-canary.4",
     "preline": "^2.0.3",
     "react": "^18",
     "react-dom": "^18"

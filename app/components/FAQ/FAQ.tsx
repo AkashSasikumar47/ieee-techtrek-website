@@ -32,7 +32,7 @@ const FAQ = () => {
                                     className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                                     aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-one"
                                 >
-                                    Can I cancel at anytime?
+                                    Who can participate in TechTrek: Code Your Commerce Canvas?
                                     <svg
                                         className="hs-accordion-active:hidden block flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
                                         xmlns="http://www.w3.org/2000/svg"
@@ -68,9 +68,7 @@ const FAQ = () => {
                                     aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-one"
                                 >
                                     <p className="text-gray-600 dark:text-gray-400">
-                                        Yes, you can cancel anytime no questions are asked while you
-                                        cancel but we would highly appreciate if you will give us some
-                                        feedback.
+                                        TechTrek is open to everyone, regardless of skill level. Whether you're a beginner or an experienced developer, everyone is encouraged to participate.
                                     </p>
                                 </div>
                             </div>
@@ -82,7 +80,7 @@ const FAQ = () => {
                                     className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                                     aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-two"
                                 >
-                                    My team has credits. How do we use them?
+                                    How can I register for TechTrek?
                                     <svg
                                         className="hs-accordion-active:hidden block flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
                                         xmlns="http://www.w3.org/2000/svg"
@@ -118,8 +116,16 @@ const FAQ = () => {
                                     aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-two"
                                 >
                                     <p className="text-gray-600 dark:text-gray-400">
-                                        Once your team signs up for a subscription plan. This is where
-                                        we sit down, grab a cup of coffee and dial in the details.
+                                        To register for TechTrek, simply visit our registration page{" "}
+                                        <a
+                                            href="https://registrations.ieeesrmist.com/"
+                                            target="_blank"  // Add this line if you want to open the link in a new tab
+                                            rel="noopener noreferrer"  // Recommended for security reasons when using target="_blank"
+                                            className="text-blue-500 hover:underline"
+                                        >
+                                            Register Here
+                                        </a>{" "}
+                                        and follow the instructions. Hurry, as spots are limited!
                                     </p>
                                 </div>
                             </div>
@@ -131,7 +137,7 @@ const FAQ = () => {
                                     className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                                     aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-three"
                                 >
-                                    How does Preline's pricing work?
+                                    Can I participate as an individual, or do I need to form a team?
                                     <svg
                                         className="hs-accordion-active:hidden block flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
                                         xmlns="http://www.w3.org/2000/svg"
@@ -167,8 +173,7 @@ const FAQ = () => {
                                     aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-three"
                                 >
                                     <p className="text-gray-600 dark:text-gray-400">
-                                        Our subscriptions are tiered. Understanding the task at hand and
-                                        ironing out the wrinkles is key.
+                                        While individual participation is allowed, we encourage forming teams of three. Teamwork often enhances the hackathon experience and fosters collaboration.
                                     </p>
                                 </div>
                             </div>
@@ -180,7 +185,7 @@ const FAQ = () => {
                                     className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                                     aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-four"
                                 >
-                                    How secure is Preline?
+                                    Is there a specific technology or framework I need to use for the hackathon?
                                     <svg
                                         className="hs-accordion-active:hidden block flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
                                         xmlns="http://www.w3.org/2000/svg"
@@ -216,9 +221,7 @@ const FAQ = () => {
                                     aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-four"
                                 >
                                     <p className="text-gray-600 dark:text-gray-400">
-                                        Protecting the data you trust to Preline is our first priority.
-                                        This part is really crucial in keeping the project in line to
-                                        completion.
+                                        No, there are no restrictions on the technologies or frameworks you can use. Feel free to choose the tools that best align with your skills and project requirements.
                                     </p>
                                 </div>
                             </div>
@@ -230,7 +233,7 @@ const FAQ = () => {
                                     className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                                     aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-five"
                                 >
-                                    How do I get access to a theme I purchased?
+                                    What happens during the Introduction & Speaker Session?
                                     <svg
                                         className="hs-accordion-active:hidden block flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
                                         xmlns="http://www.w3.org/2000/svg"
@@ -266,12 +269,7 @@ const FAQ = () => {
                                     aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-five"
                                 >
                                     <p className="text-gray-600 dark:text-gray-400">
-                                        If you lose the link for a theme you purchased, don't panic!
-                                        We've got you covered. You can login to your account, tap your
-                                        avatar in the upper right corner, and tap Purchases. If you
-                                        didn't create a login or can't remember the information, you can
-                                        use our handy Redownload page, just remember to use the same
-                                        email you originally made your purchases with.
+                                        The Introduction & Speaker Session is an opportunity to learn from industry experts. It includes keynote addresses, panel discussions, and valuable insights into web development and E-commerce trends.
                                     </p>
                                 </div>
                             </div>
@@ -283,7 +281,7 @@ const FAQ = () => {
                                     className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                                     aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-six"
                                 >
-                                    Upgrade License Type
+                                    How will the Project Showcase be conducted, and what is the evaluation criteria?
                                     <svg
                                         className="hs-accordion-active:hidden block flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
                                         xmlns="http://www.w3.org/2000/svg"
@@ -319,10 +317,7 @@ const FAQ = () => {
                                     aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-six"
                                 >
                                     <p className="text-gray-600 dark:text-gray-400">
-                                        There may be times when you need to upgrade your license from
-                                        the original type you purchased and we have a solution that
-                                        ensures you can apply your original purchase cost to the new
-                                        license purchase.
+                                        Each team will have a 10-minute slot to present and demonstrate their project during the Project Showcase. Projects will be evaluated based on functionality, user experience, creativity, and code quality.
                                     </p>
                                 </div>
                             </div>
