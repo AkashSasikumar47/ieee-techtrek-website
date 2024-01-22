@@ -3,6 +3,7 @@ import React from 'react';
 const Sponsors = () => {
     return (
         <div>
+
             <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-deepBlack font-sans text-white">
                 <div className="sm:w-1/2 xl:w-1/3 mx-auto text-center mb-6">
                     <h2 className="font-bold text-2xl md:text-3xl">
@@ -13,9 +14,6 @@ const Sponsors = () => {
                     <a href="https://ctsoc.ieee.org">
                         <img className="flex-shrink-0 transition hover:-translate-y-1 h-16 w-42" src="/Sponsors/CTSoc.png" alt="CTSoc Logo" />
                     </a>
-                    <a href="https://ias.ieee.org">
-                        <img className="flex-shrink-0 transition hover:-translate-y-1 h-16 w-42" src="/Sponsors/IAS.png" alt="IAS Logo" />
-                    </a>
                     <a href="https://www.ieee-pels.org">
                         <img className="flex-shrink-0 transition hover:-translate-y-1 h-16 w-42" src="/Sponsors/PELS.png" alt="PELS Logo" />
                     </a>
@@ -24,6 +22,7 @@ const Sponsors = () => {
                     </a>
                 </div>
             </div>
+
         </div>
     );
 };

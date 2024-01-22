@@ -3,6 +3,7 @@ import React from 'react';
 const Speakers = () => {
     return (
         <div>
+
             <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-deepBlack text-white font-sans">
                 <div className="md:grid md:grid-cols-2 md:items-center md:gap-12 xl:gap-32">
                     <div className="mt-5 sm:mt-10 lg:mt-0">
@@ -26,6 +27,7 @@ const Speakers = () => {
                     </div>
                 </div>
             </div>
+
         </div>
     );
 };

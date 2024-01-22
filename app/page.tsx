@@ -1,6 +1,7 @@
 "use client";
 
 import React from 'react';
+import Head from 'next/head';
 
 import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
@@ -18,7 +19,18 @@ import '../app/globals.css';
 
 const HomePage: React.FC = () => {
   return (
-    <div>
+    <div className='bg-deepBlack'>
+      <Head>
+        <title>TechTrek | Code Your Commerce Canvas</title>
+        <meta name="description" content="Join TechTrek, the inaugural hackathon by IEEE SRM. Code your E-commerce website, collaborate, and innovate with like-minded enthusiasts." />
+        <meta name="keywords" content="TechTrek, IEEE SRMIST, hackathon, ideation, opportunities" />
+        <link rel="icon" href="/favicon.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/Logo/apple-touch-icon.png" />
+
+        <meta name="author" content="Akash Sasikumar" />
+        <meta property="og:title" content="TechTrek | Code Your Commerce Canvas" />
+        <meta property="og:description" content="Join TechTrek, the inaugural hackathon by IEEE SRM. Code your E-commerce website, collaborate, and innovate with like-minded enthusiasts." />
+      </Head>
 
       <Navbar />
 
@@ -33,7 +45,6 @@ const HomePage: React.FC = () => {
       <Testimonial />
 
       <Footer />
-
     </div>
   );
 };

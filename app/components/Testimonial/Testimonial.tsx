@@ -3,6 +3,7 @@ import React from 'react';
 const Testimonial = () => {
     return (
         <div>
+
             <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-deepBlack text-white font-sans">
                 <div className="lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center lg:justify-between">
                     <div className="lg:col-span-5 lg:col-start-1">
@@ -36,7 +37,7 @@ const Testimonial = () => {
                                     <div className="flex-shrink-0">
                                         <img
                                             className="h-8 w-8 rounded-full"
-                                            src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80"
+                                            src="/img/Kristen.png"
                                             alt="Image Description"
                                         />
                                     </div>
@@ -52,6 +53,7 @@ const Testimonial = () => {
                             </footer>
                         </blockquote>
                     </div>
+
                     <div className="mt-10 lg:mt-0 lg:col-span-6 lg:col-end-13">
                         <div className="space-y-6 sm:space-y-8">
                             <ul className="grid grid-cols-2 divide-y divide-y-2 divide-x divide-x-2 divide-gray-200 overflow-hidden">
@@ -107,6 +109,7 @@ const Testimonial = () => {
                     </div>
                 </div>
             </div>
+
         </div>
     );
 };

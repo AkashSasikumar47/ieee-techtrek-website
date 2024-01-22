@@ -16,6 +16,7 @@ const FAQ = () => {
                             </p>
                         </div>
                     </div>
+
                     <div className="md:col-span-3">
                         <div className="hs-accordion-group divide-y divide-gray-700">
                             <div

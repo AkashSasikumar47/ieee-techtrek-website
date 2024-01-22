@@ -3,6 +3,7 @@ import React from 'react';
 const Mentors = () => {
     return (
         <div>
+
             <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-deepBlack text-white font-sans">
                 <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
                     <h2 className="font-bold text-2xl md:text-3xl">
@@ -80,6 +81,7 @@ const Mentors = () => {
                 </div>
 
             </div>
+
         </div>
     );
 };

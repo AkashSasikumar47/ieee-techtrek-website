@@ -3,8 +3,9 @@ import React from 'react';
 const Navbar = () => {
     return (
         <div>
+
             <header className="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-deepBlack text-white py-3 sm:py-0">
-                <nav className="relative max-w-7xl w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8" aria-label="Global">
+                <nav className="relative max-w-7xl w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8 mt-6" aria-label="Global">
                     <div className="flex items-center justify-between">
                         <a href="#">
                             <img className="flex-none h-10 w-36" src="/Logo/TechTrek_Logo.svg" alt="TechTreck Logo" />
@@ -43,10 +44,6 @@ const Navbar = () => {
                     </div>
                     <div id="navbar-collapse-with-animation" className="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block">
                         <div className="flex flex-col gap-y-4 gap-x-0 mt-5 sm:flex-row sm:items-center sm:justify-end sm:gap-y-0 sm:gap-x-7 sm:mt-0 sm:ps-7">
-                            <a className="font-sans font-semibold text-white sm:py-6 hover:text-gray-400" href="#" aria-current="page">Home</a>
-                            <a className="font-sans font-semibold text-white hover:text-gray-400 sm:py-6" href="#">About</a>
-                            <a className="font-sans font-semibold text-white hover:text-gray-400 sm:py-6" href="#">Mentors</a>
-                            <a className="font-sans font-semibold text-white hover:text-gray-400 sm:py-6" href="#">Workflow</a>
                             <a className="group relative inline-block focus:outline-none focus:ring" href="https://registrations.ieeesrmist.com/">
                                 <span className="font-sans absolute inset-0 translate-x-1.5 translate-y-1.5 bg-indigo transition-transform group-hover:translate-x-0 group-hover:translate-y-0"></span>
                                 <span className="font-sans relative inline-block border-2 border-current px-4 py-2 text-sm font-extrabold uppercase tracking-widest text-white group-active:text-opacity-75">Register</span>
@@ -55,6 +52,7 @@ const Navbar = () => {
                     </div>
                 </nav>
             </header>
+
         </div>
     );
 };
