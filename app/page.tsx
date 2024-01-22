@@ -6,7 +6,7 @@ import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
 import Sponsors from './components/Sponsors/Sponsors';
 import About from './components/About/About';
-import AboutHactrix from './components/AboutHactrix/AboutHactrix';
+import AboutTechTrek from './components/AboutTechTrek/AboutTechTrek';
 import Speakers from './components/Speakers/Speakers';
 import Mentors from './components/Mentors/Mentors';
 import Workflow from './components/Workflow/Workflow';
@@ -18,14 +18,14 @@ import '../app/globals.css';
 
 const HomePage: React.FC = () => {
   return (
-    <div className='dark bg-black'>
+    <div>
 
       <Navbar />
 
       <Hero />
       <Sponsors />
       <About />
-      <AboutHactrix />
+      <AboutTechTrek />
       <Speakers />
       <Mentors />
       <Workflow />

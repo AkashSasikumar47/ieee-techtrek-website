@@ -4,19 +4,25 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
-
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
     './node_modules/preline/preline.js',
   ],
   darkMode: 'class',
 
   theme: {
-
-    fontFamily: {
-      sans: ['Graphik', 'sans-serif'],
-      serif: ['Merriweather', 'serif'],
-    },
     extend: {
+      fontFamily: {
+        sans: ['Cairo Play', 'sans-serif'],
+        body: ['Montserrat', 'sans-serif'],
+      },
+      colors: {
+        white: '#ffffff',
+        indigo: '#3F13A6',
+        darkPurple: '#32004F',
+        midnightPurple: '#220135',
+        deepBlack: '#000000',
+        black: '#000000',
+      },
       spacing: {
         '8xl': '96rem',
         '9xl': '128rem',
@@ -34,5 +40,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require('preline/plugin'),],
+  plugins: [require('preline/plugin')],
 }

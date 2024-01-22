@@ -4,32 +4,26 @@ const FAQ = () => {
     return (
         <div>
 
-            {/* FAQ */}
-            <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-                {/* Grid */}
+            <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-deepBlack text-white font-sans">
                 <div className="grid md:grid-cols-5 gap-10">
                     <div className="md:col-span-2">
                         <div className="max-w-xs">
-                            <h2 className="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">
-                                Frequently
-                                <br />
-                                asked questions
+                            <h2 className="font-bold text-2xl md:text-3xl">
+                                Frequently asked questions
                             </h2>
-                            <p className="mt-1 hidden md:block text-gray-600 dark:text-gray-400">
+                            <p className="mt-1 hidden md:block font-body text-gray-300">
                                 Answers to the most frequently asked questions.
                             </p>
                         </div>
                     </div>
-                    {/* End Col */}
                     <div className="md:col-span-3">
-                        {/* Accordion */}
-                        <div className="hs-accordion-group divide-y divide-gray-200 dark:divide-gray-700">
+                        <div className="hs-accordion-group divide-y divide-gray-700">
                             <div
                                 className="hs-accordion pb-3 active"
                                 id="hs-basic-with-title-and-arrow-stretched-heading-one"
                             >
                                 <button
-                                    className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                                    className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-medium text-start font-body text-gray-300 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                                     aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-one"
                                 >
                                     Who can participate in TechTrek: Code Your Commerce Canvas?
@@ -67,7 +61,7 @@ const FAQ = () => {
                                     className="hs-accordion-content w-full overflow-hidden transition-[height] duration-300"
                                     aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-one"
                                 >
-                                    <p className="text-gray-600 dark:text-gray-400">
+                                    <p className="text-sm font-body text-gray-300">
                                         TechTrek is open to everyone, regardless of skill level. Whether you're a beginner or an experienced developer, everyone is encouraged to participate.
                                     </p>
                                 </div>
@@ -77,7 +71,7 @@ const FAQ = () => {
                                 id="hs-basic-with-title-and-arrow-stretched-heading-two"
                             >
                                 <button
-                                    className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                                    className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-medium text-start font-body text-gray-300 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                                     aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-two"
                                 >
                                     How can I register for TechTrek?
@@ -115,7 +109,7 @@ const FAQ = () => {
                                     className="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
                                     aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-two"
                                 >
-                                    <p className="text-gray-600 dark:text-gray-400">
+                                    <p className="text-sm font-body text-gray-300">
                                         To register for TechTrek, simply visit our registration page{" "}
                                         <a
                                             href="https://registrations.ieeesrmist.com/"
@@ -134,7 +128,7 @@ const FAQ = () => {
                                 id="hs-basic-with-title-and-arrow-stretched-heading-three"
                             >
                                 <button
-                                    className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                                    className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-medium text-start font-body text-gray-300 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                                     aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-three"
                                 >
                                     Can I participate as an individual, or do I need to form a team?
@@ -172,7 +166,7 @@ const FAQ = () => {
                                     className="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
                                     aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-three"
                                 >
-                                    <p className="text-gray-600 dark:text-gray-400">
+                                    <p className="text-sm font-body text-gray-300">
                                         While individual participation is allowed, we encourage forming teams of three. Teamwork often enhances the hackathon experience and fosters collaboration.
                                     </p>
                                 </div>
@@ -182,7 +176,7 @@ const FAQ = () => {
                                 id="hs-basic-with-title-and-arrow-stretched-heading-four"
                             >
                                 <button
-                                    className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                                    className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-medium text-start font-body text-gray-300 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                                     aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-four"
                                 >
                                     Is there a specific technology or framework I need to use for the hackathon?
@@ -220,7 +214,7 @@ const FAQ = () => {
                                     className="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
                                     aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-four"
                                 >
-                                    <p className="text-gray-600 dark:text-gray-400">
+                                    <p className="text-sm font-body text-gray-300">
                                         No, there are no restrictions on the technologies or frameworks you can use. Feel free to choose the tools that best align with your skills and project requirements.
                                     </p>
                                 </div>
@@ -230,7 +224,7 @@ const FAQ = () => {
                                 id="hs-basic-with-title-and-arrow-stretched-heading-five"
                             >
                                 <button
-                                    className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                                    className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-medium text-start font-body text-gray-300 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                                     aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-five"
                                 >
                                     What happens during the Introduction & Speaker Session?
@@ -268,7 +262,7 @@ const FAQ = () => {
                                     className="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
                                     aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-five"
                                 >
-                                    <p className="text-gray-600 dark:text-gray-400">
+                                    <p className="text-sm font-body text-gray-300">
                                         The Introduction & Speaker Session is an opportunity to learn from industry experts. It includes keynote addresses, panel discussions, and valuable insights into web development and E-commerce trends.
                                     </p>
                                 </div>
@@ -278,7 +272,7 @@ const FAQ = () => {
                                 id="hs-basic-with-title-and-arrow-stretched-heading-six"
                             >
                                 <button
-                                    className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                                    className="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-medium text-start font-body text-gray-300 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                                     aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-six"
                                 >
                                     How will the Project Showcase be conducted, and what is the evaluation criteria?
@@ -316,19 +310,15 @@ const FAQ = () => {
                                     className="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300"
                                     aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-six"
                                 >
-                                    <p className="text-gray-600 dark:text-gray-400">
+                                    <p className="text-sm font-body text-gray-300">
                                         Each team will have a 10-minute slot to present and demonstrate their project during the Project Showcase. Projects will be evaluated based on functionality, user experience, creativity, and code quality.
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        {/* End Accordion */}
                     </div>
-                    {/* End Col */}
                 </div>
-                {/* End Grid */}
             </div>
-            {/* End FAQ */}
 
         </div>
     )

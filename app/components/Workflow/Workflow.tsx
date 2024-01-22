@@ -4,10 +4,9 @@ const Workflow = () => {
     return (
         <div>
 
-            {/* Icon Blocks */}
-            <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+            <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-deepBlack text-white font-sans">
                 <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
-                    <h2 className="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">
+                    <h2 className="font-bold text-2xl md:text-3xl">
                         Key Highlights of the Event Workflow
                     </h2>
                 </div>
@@ -33,16 +32,14 @@ const Workflow = () => {
                             </svg>
                         </div>
                         <div className="mt-3">
-                            <h3 className="text-lg font-semibold text-gray-800 dark:text-white">
+                            <h3 className="text-lg font-bold">
                                 Learn From Experts
                             </h3>
-                            <p className="mt-1 text-gray-600 dark:text-gray-400">
+                            <p className="mt-1 text-sm font-body text-gray-300">
                                 Gain insights and knowledge from industry experts during the Introduction & Speaker Session.
                             </p>
                         </div>
                     </div>
-                    {/* End Icon Block */}
-                    {/* Icon Block */}
                     <div className="text-center">
                         <div className="flex justify-center items-center w-12 h-12 bg-gray-50 border border-gray-200 rounded-full mx-auto dark:bg-gray-800 dark:border-gray-700">
                             <svg
@@ -64,16 +61,14 @@ const Workflow = () => {
                             </svg>
                         </div>
                         <div className="mt-3">
-                            <h3 className="text-lg font-semibold text-gray-800 dark:text-white">
+                            <h3 className="text-lg font-bold">
                                 Code Your Commerce Canvas
                             </h3>
-                            <p className="mt-1 text-gray-600 dark:text-gray-400">
+                            <p className="mt-1 text-sm font-body text-gray-300">
                                 Dive into a 2-day hackathon, crafting a fully functional E-commerce website.
                             </p>
                         </div>
                     </div>
-                    {/* End Icon Block */}
-                    {/* Icon Block */}
                     <div className="text-center">
                         <div className="flex justify-center items-center w-12 h-12 bg-gray-50 border border-gray-200 rounded-full mx-auto dark:bg-gray-800 dark:border-gray-700">
                             <svg
@@ -93,16 +88,14 @@ const Workflow = () => {
                             </svg>
                         </div>
                         <div className="mt-3">
-                            <h3 className="text-lg font-semibold text-gray-800 dark:text-white">
+                            <h3 className="text-lg font-bold">
                                 Showcase Your Project
                             </h3>
-                            <p className="mt-1 text-gray-600 dark:text-gray-400">
+                            <p className="mt-1 text-sm font-body text-gray-300">
                                 Present your project during the Project Showcase, demonstrating your creativity and skills.
                             </p>
                         </div>
                     </div>
-                    {/* End Icon Block */}
-                    {/* Icon Block */}
                     <div className="text-center">
                         <div className="flex justify-center items-center w-12 h-12 bg-gray-50 border border-gray-200 rounded-full mx-auto dark:bg-gray-800 dark:border-gray-700">
                             <svg
@@ -122,34 +115,29 @@ const Workflow = () => {
                             </svg>
                         </div>
                         <div className="mt-3">
-                            <h3 className="text-lg font-semibold text-gray-800 dark:text-white">
+                            <h3 className="text-lg font-bold">
                                 Celebrate Innovation
                             </h3>
-                            <p className="mt-1 text-gray-600 dark:text-gray-400">
+                            <p className="mt-1 text-sm font-body text-gray-300">
                                 Join the celebration as we recognize outstanding projects, award prizes, and celebrate innovation.
                             </p>
                         </div>
                     </div>
-                    {/* End Icon Block */}
                 </div>
             </div>
-            {/* End Icon Blocks */}
 
-            {/* Icon Blocks */}
-            <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+            <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-deepBlack text-white font-sans">
                 <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
                     <h2 className="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">
                         Event Workflow in Action
                     </h2>
                 </div>
                 <div className="max-w-4xl mx-auto">
-                    {/* Grid */}
                     <div className="grid md:grid-cols-2 gap-6 lg:gap-12">
                         <div className="space-y-6 lg:space-y-10">
-                            {/* Icon Block */}
                             <div className="flex">
                                 <svg
-                                    className="flex-shrink-0 mt-2 h-8 w-8 text-gray-800 dark:text-white"
+                                    className="flex-shrink-0 mt-2 h-8 w-8 text-gray-400 dark:text-white"
                                     xmlns="http://www.w3.org/2000/svg"
                                     width={24}
                                     height={24}
@@ -167,19 +155,17 @@ const Workflow = () => {
                                     <line x1={16} x2={16} y1={16} y2={16} />
                                 </svg>
                                 <div className="ms-5 sm:ms-8">
-                                    <h3 className="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
+                                    <h3 className="text-lg font-bold">
                                         Introduction & Speaker Session
                                     </h3>
-                                    <p className="mt-1 text-gray-600 dark:text-gray-400">
+                                    <p className="mt-1 text-sm font-body text-gray-300">
                                         Engage with industry experts, learning about the latest trends in web development and E-commerce.
                                     </p>
                                 </div>
                             </div>
-                            {/* End Icon Block */}
-                            {/* Icon Block */}
                             <div className="flex">
                                 <svg
-                                    className="flex-shrink-0 mt-2 h-8 w-8 text-gray-800 dark:text-white"
+                                    className="flex-shrink-0 mt-2 h-8 w-8 text-gray-400 dark:text-white"
                                     xmlns="http://www.w3.org/2000/svg"
                                     width={24}
                                     height={24}
@@ -196,19 +182,17 @@ const Workflow = () => {
                                     <path d="M12 22V12" />
                                 </svg>
                                 <div className="ms-5 sm:ms-8">
-                                    <h3 className="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
+                                    <h3 className="text-lg font-bold">
                                         Hackathon Kickoff
                                     </h3>
-                                    <p className="mt-1 text-gray-600 dark:text-gray-400">
+                                    <p className="mt-1 text-sm font-body text-gray-300">
                                         Receive the challenge, form teams, and start coding your E-commerce website.
                                     </p>
                                 </div>
                             </div>
-                            {/* End Icon Block */}
-                            {/* Icon Block */}
                             <div className="flex">
                                 <svg
-                                    className="flex-shrink-0 mt-2 h-8 w-8 text-gray-800 dark:text-white"
+                                    className="flex-shrink-0 mt-2 h-8 w-8 text-gray-400 dark:text-white"
                                     xmlns="http://www.w3.org/2000/svg"
                                     width={24}
                                     height={24}
@@ -222,22 +206,72 @@ const Workflow = () => {
                                     <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
                                 </svg>
                                 <div className="ms-5 sm:ms-8">
-                                    <h3 className="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
+                                    <h3 className="text-lg font-bold">
                                         Mentorship and Collaboration
                                     </h3>
-                                    <p className="mt-1 text-gray-600 dark:text-gray-400">
+                                    <p className="mt-1 text-sm font-body text-gray-300">
                                         Seek guidance from mentors, collaborate with teammates, and overcome coding challenges.
                                     </p>
                                 </div>
                             </div>
-                            {/* End Icon Block */}
                         </div>
-                        {/* End Col */}
                         <div className="space-y-6 lg:space-y-10">
                             {/* Icon Block */}
                             <div className="flex">
                                 <svg
-                                    className="flex-shrink-0 mt-2 h-8 w-8 text-gray-800 dark:text-white"
+                                    className="flex-shrink-0 mt-2 h-8 w-8 text-gray-400 dark:text-white"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width={24}
+                                    height={24}
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    strokeWidth={2}
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                >
+                                    <path d="M7 10v12" />
+                                    <path d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2h0a3.13 3.13 0 0 1 3 3.88Z" />
+                                </svg>
+                                <div className="ms-5 sm:ms-8">
+                                    <h3 className="text-lg font-bold">
+                                        Project Showcase Preparation
+                                    </h3>
+                                    <p className="mt-1 text-sm font-body text-gray-300">
+                                        Prepare a captivating presentation to showcase your E-commerce website during the Project Showcase.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="flex">
+                                <svg
+                                    className="flex-shrink-0 mt-2 h-8 w-8 text-gray-400 dark:text-white"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width={24}
+                                    height={24}
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    strokeWidth={2}
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                >
+                                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                                    <circle cx={9} cy={7} r={4} />
+                                    <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                                </svg>
+                                <div className="ms-5 sm:ms-8">
+                                    <h3 className="text-lg font-bold">
+                                        Project Showcase
+                                    </h3>
+                                    <p className="mt-1 text-sm font-body text-gray-300">
+                                        Present your project to judges, attendees, and fellow participants in a 10-minute showcase.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="flex">
+                                <svg
+                                    className="flex-shrink-0 mt-2 h-8 w-8 text-gray-400 dark:text-white"
                                     xmlns="http://www.w3.org/2000/svg"
                                     width={24}
                                     height={24}
@@ -256,79 +290,18 @@ const Workflow = () => {
                                     <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" />
                                 </svg>
                                 <div className="ms-5 sm:ms-8">
-                                    <h3 className="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
-                                        Project Showcase Preparation
-                                    </h3>
-                                    <p className="mt-1 text-gray-600 dark:text-gray-400">
-                                        Prepare a captivating presentation to showcase your E-commerce website during the Project Showcase.
-                                    </p>
-                                </div>
-                            </div>
-                            {/* End Icon Block */}
-                            {/* Icon Block */}
-                            <div className="flex">
-                                <svg
-                                    className="flex-shrink-0 mt-2 h-8 w-8 text-gray-800 dark:text-white"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width={24}
-                                    height={24}
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    strokeWidth={2}
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                >
-                                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-                                    <circle cx={9} cy={7} r={4} />
-                                    <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-                                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
-                                </svg>
-                                <div className="ms-5 sm:ms-8">
-                                    <h3 className="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
-                                        Project Showcase
-                                    </h3>
-                                    <p className="mt-1 text-gray-600 dark:text-gray-400">
-                                        Present your project to judges, attendees, and fellow participants in a 10-minute showcase.
-                                    </p>
-                                </div>
-                            </div>
-                            {/* End Icon Block */}
-                            {/* Icon Block */}
-                            <div className="flex">
-                                <svg
-                                    className="flex-shrink-0 mt-2 h-8 w-8 text-gray-800 dark:text-white"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width={24}
-                                    height={24}
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    strokeWidth={2}
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                >
-                                    <path d="M7 10v12" />
-                                    <path d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2h0a3.13 3.13 0 0 1 3 3.88Z" />
-                                </svg>
-                                <div className="ms-5 sm:ms-8">
-                                    <h3 className="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
+                                    <h3 className="text-lg font-bold">
                                         Prize Distribution and Closing
                                     </h3>
-                                    <p className="mt-1 text-gray-600 dark:text-gray-400">
+                                    <p className="mt-1 text-sm font-body text-gray-300">
                                         Celebrate the successful completion of TechTrek, with prizes awarded to outstanding projects and closing remarks.
                                     </p>
                                 </div>
                             </div>
-                            {/* End Icon Block */}
                         </div>
-                        {/* End Col */}
                     </div>
-                    {/* End Grid */}
                 </div>
             </div>
-            {/* End Icon Blocks */}
-
 
         </div>
     )

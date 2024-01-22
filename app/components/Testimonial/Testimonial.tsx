@@ -1,25 +1,19 @@
-import React from 'react'
+import React from 'react';
 
 const Testimonial = () => {
     return (
         <div>
-
-            {/* Testimonials with Stats */}
-            <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-                {/* Grid */}
+            <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-deepBlack text-white font-sans">
                 <div className="lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center lg:justify-between">
                     <div className="lg:col-span-5 lg:col-start-1">
-                        {/* Title */}
                         <div className="mb-8">
-                            <h2 className="mb-2 text-3xl text-gray-800 font-bold lg:text-4xl dark:text-gray-200">
+                            <h2 className="mb-2 font-bold text-2xl md:text-3xl">
                                 Voices from Our Participants
                             </h2>
                         </div>
-                        {/* End Title */}
-                        {/* Blockquote */}
                         <blockquote className="relative">
                             <svg
-                                className="absolute top-0 start-0 transform -translate-x-6 -translate-y-8 h-16 w-16 text-gray-200 dark:text-gray-800"
+                                className="absolute top-0 start-0 transform -translate-x-6 -translate-y-8 h-16 w-16 text-gray-700"
                                 width={16}
                                 height={16}
                                 viewBox="0 0 16 16"
@@ -33,7 +27,7 @@ const Testimonial = () => {
                                 />
                             </svg>
                             <div className="relative z-10">
-                                <p className="text-xl italic text-gray-800 dark:text-white">
+                                <p className="text-lg italic font-body text-gray-300">
                                     As we gear up for the inaugural TechTrek, the excitement is palpable! The prospect of diving into web development, collaborating with like-minded enthusiasts, and unleashing our coding creativity is something we eagerly look forward to. The journey of innovation is about to begin, and we can't wait to see the groundbreaking projects that will emerge!
                                 </p>
                             </div>
@@ -47,35 +41,32 @@ const Testimonial = () => {
                                         />
                                     </div>
                                     <div className="grow ms-4">
-                                        <div className="font-semibold text-gray-800 dark:text-gray-200">
+                                        <div className="font-body font-semibold text-gray-200">
                                             Kristen Talukdar
                                         </div>
-                                        <div className="text-xs text-gray-500">
+                                        <div className="text-xs font-body text-gray-300">
                                             Pythonic Maestro, WAD | IEEE SRM
                                         </div>
                                     </div>
                                 </div>
                             </footer>
                         </blockquote>
-                        {/* End Blockquote */}
                     </div>
-                    {/* End Col */}
                     <div className="mt-10 lg:mt-0 lg:col-span-6 lg:col-end-13">
                         <div className="space-y-6 sm:space-y-8">
-                            {/* List */}
-                            <ul className="grid grid-cols-2 divide-y divide-y-2 divide-x divide-x-2 divide-gray-200 overflow-hidden dark:divide-gray-700">
+                            <ul className="grid grid-cols-2 divide-y divide-y-2 divide-x divide-x-2 divide-gray-200 overflow-hidden">
                                 <li className="flex flex-col -m-0.5 p-4 sm:p-8">
-                                    <div className="flex items-end gap-x-2 text-3xl sm:text-5xl font-bold text-gray-800 mb-2 dark:text-gray-200">
+                                    <div className="flex items-end gap-x-2 text-3xl sm:text-5xl font-bold text-gray-100 mb-2">
                                         51+
                                     </div>
-                                    <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400">
+                                    <p className="text-sm sm:text-base font-body text-gray-400">
                                         Anticipated enthusiastic participants.
                                     </p>
                                 </li>
                                 <li className="flex flex-col -m-0.5 p-4 sm:p-8">
-                                    <div className="flex items-end gap-x-2 text-3xl sm:text-5xl font-bold text-gray-800 mb-2 dark:text-gray-200">
+                                    <div className="flex items-end gap-x-2 text-3xl sm:text-5xl font-bold text-gray-100 mb-2">
                                         <svg
-                                            className="flex-shrink-0 w-5 h-5 text-blue-600 dark:text-blue-500"
+                                            className="flex-shrink-0 w-5 h-5 text-blue-600"
                                             xmlns="http://www.w3.org/2000/svg"
                                             width={24}
                                             height={24}
@@ -91,53 +82,33 @@ const Testimonial = () => {
                                         </svg>
                                         17+
                                     </div>
-                                    <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400">
+                                    <p className="text-sm sm:text-base font-body text-gray-400">
                                         Envisioning a wave of creative projects.
                                     </p>
                                 </li>
                                 <li className="flex flex-col -m-0.5 p-4 sm:p-8">
-                                    <div className="flex items-end gap-x-2 text-3xl sm:text-5xl font-bold text-gray-800 mb-2 dark:text-gray-200">
-                                        <svg
-                                            className="flex-shrink-0 w-5 h-5 text-blue-600 dark:text-blue-500"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width={24}
-                                            height={24}
-                                            viewBox="0 0 24 24"
-                                            fill="none"
-                                            stroke="currentColor"
-                                            strokeWidth={2}
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                        >
-                                            <path d="m5 12 7-7 7 7" />
-                                            <path d="M12 19V5" />
-                                        </svg>
+                                    <div className="flex items-end gap-x-2 text-3xl sm:text-5xl font-bold text-gray-100 mb-2">
                                         48
                                     </div>
-                                    <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400">
+                                    <p className="text-sm sm:text-base font-body text-gray-400">
                                         Hours of Coding
                                     </p>
                                 </li>
                                 <li className="flex flex-col -m-0.5 p-4 sm:p-8">
-                                    <div className="flex items-end gap-x-2 text-3xl sm:text-5xl font-bold text-gray-800 mb-2 dark:text-gray-200">
+                                    <div className="flex items-end gap-x-2 text-3xl sm:text-5xl font-bold text-gray-100 mb-2">
                                         2x
                                     </div>
-                                    <p className="text-sm sm:text-base text-gray-600 dark:text-gray-400">
+                                    <p className="text-sm sm:text-base font-body text-gray-400">
                                         Innovative Spirit
                                     </p>
                                 </li>
                             </ul>
-                            {/* End List */}
                         </div>
                     </div>
-                    {/* End Col */}
                 </div>
-                {/* End Grid */}
             </div>
-            {/* End Testimonials with Stats */}
-
         </div>
-    )
-}
+    );
+};
 
-export default Testimonial
+export default Testimonial;

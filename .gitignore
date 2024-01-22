@@ -237,7 +237,7 @@ mono_crash.*
 # next.js
 /.next/
 /out/
-.next/
+.next
 
 # production
 /build
