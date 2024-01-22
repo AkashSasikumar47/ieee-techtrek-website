@@ -20,6 +20,7 @@ import '../app/globals.css';
 const HomePage: React.FC = () => {
   return (
     <div className='bg-deepBlack'>
+
       <Head>
         <title>TechTrek | Code Your Commerce Canvas</title>
         <meta name="description" content="Join TechTrek, the inaugural hackathon by IEEE SRM. Code your E-commerce website, collaborate, and innovate with like-minded enthusiasts." />
@@ -30,6 +31,9 @@ const HomePage: React.FC = () => {
         <meta name="author" content="Akash Sasikumar" />
         <meta property="og:title" content="TechTrek | Code Your Commerce Canvas" />
         <meta property="og:description" content="Join TechTrek, the inaugural hackathon by IEEE SRM. Code your E-commerce website, collaborate, and innovate with like-minded enthusiasts." />
+        <meta property="og:image" content="/img/TechTreck 2024 Banner.png" />
+        <meta property="og:url" content="https://techtrek.ieeesrmist.com" />
+
       </Head>
 
       <Navbar />
