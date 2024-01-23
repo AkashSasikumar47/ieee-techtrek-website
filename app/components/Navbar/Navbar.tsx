@@ -4,7 +4,7 @@ const Navbar = () => {
     return (
         <div>
 
-            <header className="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-deepBlack text-white py-3 sm:py-0">
+            <header className="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-black text-white py-3 sm:py-0">
                 <nav className="relative max-w-7xl w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8 mt-6" aria-label="Global">
                     <div className="flex items-center justify-between">
                         <a href="#">
