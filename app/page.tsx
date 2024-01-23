@@ -11,6 +11,7 @@ import AboutTechTrek from './components/AboutTechTrek/AboutTechTrek';
 import Speakers from './components/Speakers/Speakers';
 import Mentors from './components/Mentors/Mentors';
 import Workflow from './components/Workflow/Workflow';
+import EventTimeline from './components/EventTimeline/EventTimeline';
 import FAQ from './components/FAQ/FAQ';
 import Testimonial from './components/Testimonial/Testimonial';
 import Footer from './components/Footer/Footer';
@@ -31,9 +32,8 @@ const HomePage: React.FC = () => {
         <meta name="author" content="Akash Sasikumar" />
         <meta property="og:title" content="TechTrek | Code Your Commerce Canvas" />
         <meta property="og:description" content="Join TechTrek, the inaugural hackathon by IEEE SRM. Code your E-commerce website, collaborate, and innovate with like-minded enthusiasts." />
-        <meta property="og:image" content="/img/TechTreck 2024 Banner.png" />
+        <meta property="og:image" content="/img/TechTrek_Banner.png" />
         <meta property="og:url" content="https://techtrek.ieeesrmist.com" />
-
       </Head>
 
       <Navbar />
@@ -45,6 +45,7 @@ const HomePage: React.FC = () => {
       <Speakers />
       <Mentors />
       <Workflow />
+      <EventTimeline />
       <FAQ />
       <Testimonial />
 
