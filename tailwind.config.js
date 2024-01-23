@@ -20,7 +20,7 @@ module.exports = {
         indigo: '#3F13A6',
         darkPurple: '#32004F',
         midnightPurple: '#220135',
-        deepBlack: '#000000',
+        deepBlack: '#121212',
         black: '#000000',
       },
       spacing: {
