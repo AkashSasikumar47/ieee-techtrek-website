@@ -5,6 +5,7 @@ import Head from 'next/head';
 
 import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
+import Winners from './components/Winners/Winners';
 import Sponsors from './components/Sponsors/Sponsors';
 import About from './components/About/About';
 import AboutTechTrek from './components/AboutTechTrek/AboutTechTrek';
@@ -39,6 +40,7 @@ const HomePage: React.FC = () => {
       <Navbar />
 
       <Hero />
+      <Winners />
       <Sponsors />
       <About />
       <AboutTechTrek />
