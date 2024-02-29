@@ -38,7 +38,6 @@ const HomePage: React.FC = () => {
       </Head>
 
       <Navbar />
-
       <Hero />
       <Winners />
       <Sponsors />
@@ -50,7 +49,6 @@ const HomePage: React.FC = () => {
       <EventTimeline />
       <FAQ />
       <Testimonial />
-
       <Footer />
     </div>
   );
