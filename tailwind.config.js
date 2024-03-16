@@ -12,8 +12,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Cairo Play', 'sans-serif'],
-        body: ['Montserrat', 'sans-serif'],
+        sans: ['Inter', 'sans-serif'],
+        body: ['Inter', 'sans-serif'],
       },
       colors: {
         white: '#ffffff',
