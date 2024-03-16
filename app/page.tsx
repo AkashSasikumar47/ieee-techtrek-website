@@ -21,7 +21,7 @@ import '../app/globals.css';
 
 const HomePage: React.FC = () => {
   return (
-    <div className='bg-deepBlack'>
+    <div>
 
       <Head>
         <title>TechTrek | Code Your Commerce Canvas</title>
