@@ -1,8 +1,6 @@
 import type { Metadata } from 'next'
 import './globals.css'
 
-import PrelineScript from './components/Preline/PrelineScript'
-
 export const metadata: Metadata = {
   title: 'TechTrek | Code Your Commerce Canvas',
   description: 'Join TechTrek, the inaugural hackathon by IEEE SRM. Code your E-commerce website, collaborate, and innovate with like-minded enthusiasts.',
@@ -17,7 +15,6 @@ export default function RootLayout({
     <html lang="en">
       <body className="font-sans">
         {children as React.ReactElement}
-        <PrelineScript />
       </body>
     </html>
   )
