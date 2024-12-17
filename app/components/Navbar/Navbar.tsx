@@ -1,59 +1,51 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 const Navbar = () => {
+    const [isVisible, setIsVisible] = useState(true);
+    const [lastScrollTop, setLastScrollTop] = useState(0);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const currentScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+            if (currentScrollTop > lastScrollTop) {
+                setIsVisible(false);
+            } else {
+                setIsVisible(true);
+            }
+            setLastScrollTop(currentScrollTop <= 0 ? 0 : currentScrollTop);
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, [lastScrollTop]);
+
     return (
-        <div>
-
-            <header className="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-black text-white py-3 sm:py-0">
-                <nav className="relative max-w-7xl w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8 mt-6" aria-label="Global">
-                    <div className="flex items-center justify-between">
-                        <a href="#">
-                            <img className="flex-none h-10 w-36" src="/Logo/TechTrek_Logo.svg" alt="TechTreck Logo" />
+        <header
+            className={`sticky top-0 inset-x-0 flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full transition-transform duration-300 ${isVisible ? 'translate-y-0' : '-translate-y-full'
+                } backdrop-blur-md bg-neutral-800/30`}
+        >
+            <nav className="relative max-w-screen-2xl w-full py-2.5 px-5 flex md:items-center justify-between md:py-0 mx-2 lg:mx-auto">
+                <div className="flex items-center justify-between">
+                    <a href="/" className="inline-flex items-center gap-2.5 text-2xl font-bold text-black md:text-3xl" aria-label="logo">
+                        <img src="/assets/Logo/IEEE-Logo.svg" alt="Gen_AI logo" className="h-8 md:h-12" />
+                    </a>
+                </div>
+                <div className="flex flex-col md:flex-row md:items-center md:justify-end py-2 md:py-0 md:ps-7">
+                    <div className='ps-px md:py-4 px-4'>
+                        <a
+                            className="group inline-flex items-center gap-x-2 py-2 px-3 bg-cyan-400 text-black font-medium text-sm rounded-full focus:outline-none"
+                            href="https://registrations.ieeesrmist.com/"
+                        >
+                            Register Now
                         </a>
-                        <div className="sm:hidden">
-                            <button
-                                type="button"
-                                className="hs-collapse-toggle w-9 h-9 flex justify-center items-center text-sm font-semibold rounded-lg border border-indigo text-white hover:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:ring focus:border-blue-300"
-                                data-hs-collapse="#navbar-collapse-with-animation"
-                                aria-controls="navbar-collapse-with-animation"
-                                aria-label="Toggle navigation"
-                            >
-                                <svg
-                                    className="hs-collapse-open:hidden w-4 h-4"
-                                    width={16}
-                                    height={16}
-                                    fill="currentColor"
-                                    viewBox="0 0 16 16"
-                                >
-                                    <path
-                                        fillRule="evenodd"
-                                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
-                                    />
-                                </svg>
-                                <svg
-                                    className="hs-collapse-open:block flex-shrink-0 hidden w-4 h-4"
-                                    width={16}
-                                    height={16}
-                                    fill="currentColor"
-                                    viewBox="0 0 16 16"
-                                >
-                                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
-                                </svg>
-                            </button>
-                        </div>
                     </div>
-                    <div id="navbar-collapse-with-animation" className="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block">
-                        <div className="flex flex-col gap-y-4 gap-x-0 mt-5 sm:flex-row sm:items-center sm:justify-end sm:gap-y-0 sm:gap-x-7 sm:mt-0 sm:ps-7">
-                            <a className="group relative inline-block focus:outline-none focus:ring" href="#">
-                                <span className="font-sans absolute inset-0 translate-x-1.5 translate-y-1.5 bg-indigo transition-transform group-hover:translate-x-0 group-hover:translate-y-0"></span>
-                                <span className="font-sans relative inline-block border-2 border-current px-4 py-2 text-sm font-extrabold uppercase tracking-widest text-white group-active:text-opacity-75">Register</span>
-                            </a>
-                        </div>
-                    </div>
-                </nav>
-            </header>
-
-        </div>
+                </div>
+            </nav>
+        </header>
     );
 };
 

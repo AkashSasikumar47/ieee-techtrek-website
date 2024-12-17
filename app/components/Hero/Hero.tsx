@@ -1,43 +1,72 @@
 import React from 'react';
+import Navbar from '../Navbar/Navbar';
+import { motion } from 'framer-motion';
 
-const Hero = () => {
+const Hero: React.FC = () => {
     return (
-        <div>
-
-            <div className="relative h-screen bg-deepBlack text-white font-sans">
-                <div
-                    className="absolute inset-0 bg-cover bg-center"
-                    style={{ backgroundImage: 'url("/img/Hero_Image.png")' }}
+        <header className="relative w-full h-screen bg-cover bg-center mb-8 overflow-hidden">
+            <motion.div
+                className="absolute top-0 left-0 w-full h-full"
+                style={{
+                    backgroundImage: "url('/assets/Img/hero_section.jpg')",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat"
+                }}
+                initial={{ scale: 1.2, opacity: 0 }}
+                animate={{ scale: 1, opacity: 1 }}
+                transition={{ duration: 2, ease: "easeOut" }}
+            />
+            <Navbar />
+            <div className="flex flex-col items-center justify-center h-full text-center p-4 lg:px-36 relative z-10">
+                <motion.h1
+                    className="mt-18 mb-8 lg:mb-10 font-sans font-bold text-white text-6xl md:text-8xl xl:text-10xl 2xl:text-[12rem]"
+                    initial={{ opacity: 0, y: 100, scale: 0.8, rotate: -10 }}
+                    animate={{ opacity: 1, y: 0, scale: 1, rotate: 0 }}
+                    transition={{
+                        duration: 2.5,
+                        ease: [0.6, -0.05, 0.2, 1.5],
+                        delay: 0.5,
+                    }}
+                    whileHover={{
+                        scale: 1.1,
+                        rotate: 2,
+                        transition: { duration: 0.3 },
+                    }}
                 >
-                    <div className="absolute inset-0 bg-black opacity-50"></div>
-                </div>
-                <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto text-center">
-                        <p className="font-sans font-extrabold inline-block text-sm bg-clip-text bg-gradient-to-l from-blue-600 to-violet-500 text-transparent">
-                            Innovate, Collaborate, Elevate.
-                        </p>
-                        <div className="mt-5 max-w-2xl">
-                            <h1 className="font-extrabold block text-6xl md:text-5xl lg:text-8xl">
-                                TechTrek-24
-                            </h1>
-                        </div>
-                        <div className="mt-5 max-w-3xl">
-                            <p className="font-body font-medium text-lg">
-                                Join the web development adventure at TechTrek. Craft a cutting-edge E-commerce website in just 2 days. Let's code the future together!
-                            </p>
-                        </div>
-                        <div className="mt-8 gap-3 flex justify-center">
-                            <a className="group relative inline-block focus:outline-none focus:ring" href="#">
-                                <span className="absolute inset-0 translate-x-1.5 translate-y-1.5 bg-indigo transition-transform group-hover:translate-x-0 group-hover:translate-y-0"></span>
-                                <span className="relative inline-block border-2 border-current px-8 py-3 text-sm font-bold uppercase tracking-widest text-white group-active:text-opacity-75">Register</span>
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
+                    TechTrek 2.0
+                </motion.h1>
+                <motion.p
+                    className="mb-2 font-sans font-medium text-white text-lg sm:text-2xl"
+                    initial={{ opacity: 0, y: 50 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 1.8, ease: "easeOut", delay: 0.3 }}
+                >
+                    CONCEPTS TO CREATIONS
+                </motion.p>
+                <motion.div
+                    className="animate-bounce text-white mt-12"
+                    initial={{ scale: 0 }}
+                    animate={{ scale: 1 }}
+                    transition={{ delay: 0.6, duration: 1 }}
+                >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="h-10 w-10 mx-auto"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                    >
+                        <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={4}
+                            d="M19 14l-7 7m0 0l-7-7m7 7V3"
+                        />
+                    </svg>
+                </motion.div>
             </div>
-
-        </div>
+        </header>
     );
 };
 
