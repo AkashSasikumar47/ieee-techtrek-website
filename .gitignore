@@ -202,30 +202,6 @@ mono_crash.*
 
 # Mono Auto Generated Files
 mono_crash.*
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# JetBrains Rider
-.idea/
-
-# User-specific files
-*.suo
-*.user
-*.userosscache
-*.suo
-*.suo.lock
-*.suo.bak
-*.suo.bak.lock
-
-# Mono Auto Generated Files
-mono_crash.*
 # dependencies
 /node_modules
 /.pnp
@@ -257,6 +233,45 @@ yarn-error.log*
 # vercel
 .vercel
 
+# firebase
+/app/firebase_config.js
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Additional Common Entries
+# Yarn lock files
+yarn.lock
+
+# ESLint
+.eslintcache
+
+# Prettier
+.prettier*
+
+# Parcel
+.cache/
+.parcel-cache/
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose.yml
+docker-compose.override.yml
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Ansible
+*.retry
+
+# Caches for commonly used build tools
+.cache/
+
+temp/
+
+# Nuxt.js
+.nuxt/
