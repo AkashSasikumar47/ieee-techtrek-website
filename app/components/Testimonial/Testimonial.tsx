@@ -56,7 +56,7 @@ const Testimonial = () => {
 
                     <div className="mt-10 lg:mt-0 lg:col-span-6 lg:col-end-13">
                         <div className="space-y-6 sm:space-y-8">
-                            <ul className="grid grid-cols-2 divide-y divide-y-2 divide-x divide-x-2 divide-gray-200 overflow-hidden">
+                            <ul className="grid grid-cols-2 divide-gray-200 overflow-hidden">
                                 <li className="flex flex-col -m-0.5 p-4 sm:p-8">
                                     <div className="flex items-end gap-x-2 text-3xl sm:text-5xl font-bold text-gray-100 mb-2">
                                         51+
