@@ -3,13 +3,11 @@
 import React from 'react';
 import Head from 'next/head';
 
-import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
 import About from './components/About/About';
 import AboutTechTrek from './components/AboutTechTrek/AboutTechTrek';
 import Speakers from './components/Speakers/Speakers';
 import Mentors from './components/Mentors/Mentors';
-import Workflow from './components/Workflow/Workflow';
 import EventTimeline from './components/EventTimeline/EventTimeline';
 import FAQ from './components/FAQ/FAQ';
 import Testimonial from './components/Testimonial/Testimonial';
@@ -19,7 +17,7 @@ import '../app/globals.css';
 
 const HomePage: React.FC = () => {
   return (
-    <div className='bg-black'>
+    <div>
       <Head>
         <title>TechTrek | IEEE SRMIST</title>
         <meta name="description" content="Join TechTrek, the inaugural hackathon by IEEE SRM. Code your E-commerce website, collaborate, and innovate with like-minded enthusiasts." />
@@ -32,7 +30,6 @@ const HomePage: React.FC = () => {
       <AboutTechTrek />
       <Speakers />
       <Mentors />
-      <Workflow />
       <EventTimeline />
       <FAQ />
       <Testimonial />
