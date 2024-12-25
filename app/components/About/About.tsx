@@ -26,7 +26,7 @@ const About = () => {
                             <IconBlock
                                 icon={
                                     <svg
-                                        className="flex-shrink-0 mt-1 w-6 h-6 text-blue-600"
+                                        className="flex-shrink-0 mt-1 w-6 h-6 text-blue-300"
                                         xmlns="http://www.w3.org/2000/svg"
                                         width={24}
                                         height={24}
@@ -50,7 +50,7 @@ const About = () => {
                             <IconBlock
                                 icon={
                                     <svg
-                                        className="flex-shrink-0 mt-1 w-6 h-6 text-blue-600"
+                                        className="flex-shrink-0 mt-1 w-6 h-6 text-blue-300"
                                         xmlns="http://www.w3.org/2000/svg"
                                         width={24}
                                         height={24}
@@ -71,7 +71,7 @@ const About = () => {
                             <IconBlock
                                 icon={
                                     <svg
-                                        className="flex-shrink-0 mt-1 w-6 h-6 text-blue-600"
+                                        className="flex-shrink-0 mt-1 w-6 h-6 text-blue-300"
                                         xmlns="http://www.w3.org/2000/svg"
                                         width={24}
                                         height={24}
@@ -92,7 +92,7 @@ const About = () => {
                             <IconBlock
                                 icon={
                                     <svg
-                                        className="flex-shrink-0 mt-1 w-6 h-6 text-blue-600"
+                                        className="flex-shrink-0 mt-1 w-6 h-6 text-blue-300"
                                         xmlns="http://www.w3.org/2000/svg"
                                         width={24}
                                         height={24}

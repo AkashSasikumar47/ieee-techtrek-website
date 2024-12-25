@@ -3,6 +3,7 @@
 import React from 'react';
 import Head from 'next/head';
 
+import Shadow from './components/Shadow/Shadow';
 import Hero from './components/Hero/Hero';
 import About from './components/About/About';
 import AboutTechTrek from './components/AboutTechTrek/AboutTechTrek';
@@ -25,6 +26,7 @@ const HomePage: React.FC = () => {
         <link rel="icon" href="/favicon.ico?v=2" />
       </Head>
 
+      <Shadow />
       <Hero />
       <About />
       <AboutTechTrek />
