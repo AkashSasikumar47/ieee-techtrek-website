@@ -11,7 +11,7 @@ const Footer = () => {
     });
 
     return (
-        <footer className="max-w-screen-2xl bg-black mx-auto px-4 py-6 md:px-8 md:py-10">
+        <footer className="max-w-screen-lg bg-white mx-auto px-4 py-6 md:px-8 md:py-10">
             <motion.div
                 ref={ref}
                 initial={{ opacity: 0, y: 50 }}
@@ -21,7 +21,7 @@ const Footer = () => {
             >
                 <div>
                     <a
-                        className="flex-none text-sm font-head font-extrabold text-neonCyan"
+                        className="flex-none"
                         href="#"
                         aria-label="Brand"
                     >
@@ -42,7 +42,7 @@ const Footer = () => {
                 </div>
 
                 <div className="mt-3">
-                    <p className="mb-2 font-sans font-base text-white text-normal sm:text-lg">
+                    <p className="mb-2 font-sans font-base text-black text-normal sm:text-lg">
                         We're part of the{' '}
                         <a
                             className="font-sans font-bold text-normal text-neonCyan sm:text-lg hover:text-blue-800"
@@ -52,7 +52,7 @@ const Footer = () => {
                         </a>{' '}
                         family.
                     </p>
-                    <p className="font-sans font-base text-white text-xs sm:text-normal">© 2024 IEEE SRM. All rights reserved.</p>
+                    <p className="font-sans font-base text-black text-xs sm:text-normal">© 2024 IEEE SRM. All rights reserved.</p>
                 </div>
 
                 <div className="mt-3 md:text-end space-x-2">
