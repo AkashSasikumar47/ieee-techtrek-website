@@ -18,7 +18,7 @@ import '../app/globals.css';
 
 const HomePage: React.FC = () => {
   return (
-    <div>
+    <div className="bg-slate-300">
       <Head>
         <title>TechTrek | IEEE SRMIST</title>
         <meta name="description" content="Join TechTrek, the inaugural hackathon by IEEE SRM. Code your E-commerce website, collaborate, and innovate with like-minded enthusiasts." />
